@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://magical-monstera-b283f9.netlify.app/sitemap.xml

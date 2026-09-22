@@ -1,0 +1,10 @@
+# Redirect index.html to clean directories
+/index.html                 /                       301!
+/services/index.html        /services/              301!
+/work/index.html            /work/                  301!
+/method/index.html          /method/                301!
+/blog/index.html            /blog/                  301!
+/contact/index.html         /contact/               301!
+
+# Redirect duplicate code.html to homepage
+/code.html                  /                       301!

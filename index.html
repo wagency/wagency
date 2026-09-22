@@ -1,0 +1,1613 @@
+﻿<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>W AGENCY | Custom Web Design & Conversion Architecture</title>
+<meta name="description" content="W Agency builds custom, high-converting websites for service businesses. Engineered with strategic conversion architecture, pure code speed, and SEO foundation.">
+<link rel="canonical" href="https://magical-monstera-b283f9.netlify.app/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://magical-monstera-b283f9.netlify.app/">
+<meta property="og:title" content="W AGENCY | Custom Web Design & Conversion Architecture">
+<meta property="og:description" content="We design digital experiences engineered to attract attention, build trust, and turn visitors into customers.">
+<meta property="og:image" content="https://magical-monstera-b283f9.netlify.app/logo.png">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://magical-monstera-b283f9.netlify.app/">
+<meta name="twitter:title" content="W AGENCY | Custom Web Design & Conversion Architecture">
+<meta name="twitter:description" content="We design digital experiences engineered to attract attention, build trust, and turn visitors into customers.">
+<meta name="twitter:image" content="https://magical-monstera-b283f9.netlify.app/logo.png">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://magical-monstera-b283f9.netlify.app/#organization",
+      "name": "W Agency",
+      "url": "https://magical-monstera-b283f9.netlify.app",
+      "logo": "https://magical-monstera-b283f9.netlify.app/logo.png",
+      "description": "High-performance custom web design and conversion architecture for service businesses.",
+      "email": "justworkwork90@gmail.com",
+      "telephone": "+212664238498",
+      "sameAs": ["https://wa.me/212664238498"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://magical-monstera-b283f9.netlify.app/#service",
+      "name": "W Agency — Web Design & Digital Solutions",
+      "parentOrganization": { "@id": "https://magical-monstera-b283f9.netlify.app/#organization" },
+      "url": "https://magical-monstera-b283f9.netlify.app",
+      "priceRange": "$$$$",
+      "image": "https://magical-monstera-b283f9.netlify.app/logo.png",
+      "telephone": "+212664238498"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://magical-monstera-b283f9.netlify.app/#website",
+      "url": "https://magical-monstera-b283f9.netlify.app",
+      "name": "W Agency",
+      "publisher": { "@id": "https://magical-monstera-b283f9.netlify.app/#organization" }
+    },
+        {
+          "@type": "FAQPage",
+          "@id": "https://magical-monstera-b283f9.netlify.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What types of businesses do you work with?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We work with service businesses of any type—including landscapers, contractors, medical and dental practices, lawyers, real estate specialists, and commercial service companies."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you build e-commerce or product stores?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. We intentionally specialize 100% in service businesses and client-acquisition platforms. We do not build complex retail e-commerce stores with hundreds of products."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is 'The W Method' / conversion architecture?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The W Method is our internal framework that structures visual hierarchy, strategic user journeys, micro-commitment estimators, and trust anchors to guide visitors into becoming booked client inquiries."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I own my website and code completely?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, 100%. You retain full ownership of all code, assets, design files, and content with zero proprietary lock-in."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How does SEO fit into the build?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We build technical SEO directly into your codebase: semantic HTML5 tags, Schema.org JSON-LD structured data, Open Graph metadata, sitemap.xml, robots.txt, and fast Core Web Vitals architecture."
+              }
+            }
+          ]
+        }
+  ]
+}
+</script>
+
+<!-- Preload Critical LCP Hero Image -->
+<link rel="preload" as="image" href="hero-logo.png" fetchpriority="high" type="image/png">
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Sora:wght@700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Sora:wght@700;800&display=swap" media="print" onload="this.media='all'">
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Sora:wght@700;800&display=swap">
+</noscript>
+
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-tint": "#ffb693",
+                      "on-tertiary": "#003257",
+                      "on-primary-fixed": "#351000",
+                      "error-container": "#93000a",
+                      "tertiary": "#9ccaff",
+                      "secondary-container": "#454747",
+                      "surface-variant": "#41312a",
+                      "on-tertiary-fixed-variant": "#00497b",
+                      "surface-container-low": "#261812",
+                      "outline": "#a98a7d",
+                      "primary-container": "#ff6b00",
+                      "on-surface": "#f8ddd2",
+                      "surface-container-lowest": "#170b06",
+                      "on-tertiary-container": "#003357",
+                      "background": "#1d100a",
+                      "on-surface-variant": "#e2bfb0",
+                      "primary-fixed-dim": "#ffb693",
+                      "on-error": "#690005",
+                      "primary-fixed": "#ffdbcc",
+                      "surface": "#1d100a",
+                      "secondary-fixed": "#e2e2e2",
+                      "surface-bright": "#46362e",
+                      "secondary": "#c6c6c7",
+                      "primary": "#ffb693",
+                      "on-secondary-fixed": "#1a1c1c",
+                      "on-secondary-container": "#b4b5b5",
+                      "inverse-primary": "#a04100",
+                      "inverse-surface": "#f8ddd2",
+                      "on-tertiary-fixed": "#001d35",
+                      "on-primary-fixed-variant": "#7a3000",
+                      "surface-container-high": "#362720",
+                      "on-primary-container": "#572000",
+                      "on-error-container": "#ffdad6",
+                      "on-background": "#f8ddd2",
+                      "error": "#ffb4ab",
+                      "inverse-on-surface": "#3d2d26",
+                      "outline-variant": "#5a4136",
+                      "secondary-fixed-dim": "#c6c6c7",
+                      "surface-container-highest": "#41312a",
+                      "tertiary-fixed": "#d0e4ff",
+                      "on-secondary-fixed-variant": "#454747",
+                      "tertiary-container": "#059eff",
+                      "surface-container": "#2b1c16",
+                      "surface-dim": "#1d100a",
+                      "on-secondary": "#2f3131",
+                      "on-primary": "#561f00",
+                      "tertiary-fixed-dim": "#9ccaff"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "section-gap": "160px",
+                      "margin-mobile": "20px",
+                      "margin-desktop": "80px",
+                      "container-max": "1440px",
+                      "gutter": "32px",
+                      "unit": "8px"
+              },
+              "fontFamily": {
+                      "headline-md": [
+                              "Sora", "sans-serif"
+                      ],
+                      "headline-lg": [
+                              "Sora", "sans-serif"
+                      ],
+                      "body-md": [
+                              "Inter", "sans-serif"
+                      ],
+                      "label-caps": [
+                              "JetBrains Mono", "monospace"
+                      ],
+                      "body-lg": [
+                              "Inter", "sans-serif"
+                      ],
+                      "display-hero": [
+                              "Sora", "sans-serif"
+                      ],
+                      "headline-lg-mobile": [
+                              "Sora", "sans-serif"
+                      ]
+              },
+              "fontSize": {
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "64px",
+                              {
+                                      "lineHeight": "72px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.15em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-hero": [
+                              "120px",
+                              {
+                                      "lineHeight": "110px",
+                                      "letterSpacing": "-0.04em",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "40px",
+                              {
+                                      "lineHeight": "44px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #050505;
+            color: #f8ddd2;
+            overflow-x: hidden;
+        }
+        
+        .glass-panel {
+            background: rgba(15, 15, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top-color: rgba(255, 255, 255, 0.2);
+            border-left-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .interactive-box {
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+        }
+
+        .interactive-box:hover {
+            background: #FF6B00 !important;
+            border-color: #FF6B00 !important;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(255, 107, 0, 0.35);
+        }
+
+        .interactive-box:hover span {
+            color: #050505 !important;
+            font-weight: 700;
+        }
+
+        .btn-primary {
+            background-color: #FF6B00;
+            color: #050505;
+            position: relative;
+            overflow: hidden;
+            border-radius: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            box-shadow: 0 0 20px rgba(255, 107, 0, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 0;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            border-color: #ffffff;
+        }
+
+        .ambient-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255,107,0,0.15) 0%, rgba(5,5,5,0) 70%);
+            pointer-events: none;
+            z-index: 0;
+            border-radius: 50%;
+            filter: blur(40px);
+        }
+        
+        /* Typography overrides to ensure crispness */
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* Z-index layering */
+        .z-base { z-index: 0; }
+        .z-content { z-index: 10; }
+        .z-overlay { z-index: 50; }
+
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* GPU-Composited Glow Breathing Animation */
+        .hero-logo-breathing {
+            animation: glowBreathing 3.5s ease-in-out infinite alternate;
+            transform-origin: center center;
+            will-change: transform, opacity;
+            transform: translateZ(0);
+            filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.85)) drop-shadow(0 0 45px rgba(255, 107, 0, 0.65));
+        }
+
+        @keyframes glowBreathing {
+            0% {
+                transform: scale(0.98) translateZ(0);
+                opacity: 0.92;
+            }
+            100% {
+                transform: scale(1.03) translateZ(0);
+                opacity: 1.0;
+            }
+        }
+
+        .hero-glow-breathing {
+            animation: coreBreathingGlow 3.5s ease-in-out infinite alternate;
+            will-change: transform, opacity;
+            transform: translateZ(0);
+            filter: blur(100px);
+        }
+
+        @keyframes coreBreathingGlow {
+            0% {
+                opacity: 0.4;
+                transform: scale(0.9) translateZ(0);
+            }
+            100% {
+                opacity: 0.85;
+                transform: scale(1.25) translateZ(0);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .hero-logo-breathing, .hero-glow-breathing {
+                animation: none !important;
+                transform: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar Component -->
+<nav class="fixed top-0 w-full z-50 bg-[#050505]/85 backdrop-blur-xl border-b border-white/10 shadow-none">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto">
+<!-- Brand -->
+<a class="scale-95 active:scale-90 transition-transform flex items-center" href="/" aria-label="W Agency">
+<img src="/logo.png" alt="W AGENCY" width="380" height="151" class="h-10 md:h-12 w-auto object-contain" decoding="async">
+</a>
+<!-- Desktop Navigation -->
+<div class="hidden md:flex items-center space-x-8 text-xs font-mono tracking-widest uppercase text-white/70">
+<a class="hover:text-primary-container transition-colors" href="/services/">Services</a>
+<a class="hover:text-primary-container transition-colors" href="/work/">Work</a>
+<a class="hover:text-primary-container transition-colors" href="/method/">The Method</a>
+<a class="hover:text-primary-container transition-colors" href="/blog/">Blog</a>
+<a class="hover:text-primary-container transition-colors" href="#insight">Philosophy</a>
+<a class="hover:text-primary-container transition-colors" href="#contact">Contact</a>
+</div>
+<!-- Trailing CTA -->
+<a class="hidden md:inline-flex btn-primary px-8 py-3.5 text-xs uppercase tracking-wider font-bold" href="#contact">
+    GET A QUOTE
+</a>
+<!-- Mobile Menu Toggle -->
+<button id="mobileMenuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileDrawer" class="md:hidden text-white scale-95 active:scale-90 transition-transform">
+<svg class="w-7 h-7 text-white inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+</button>
+</div>
+<!-- Mobile Drawer Menu -->
+<div id="mobileDrawer" class="hidden md:hidden bg-[#0c0604] border-b border-white/10 px-6 py-6 space-y-4 text-xs font-mono uppercase tracking-wider">
+<a class="block py-2 text-white/80" href="/services/">Services</a>
+<a class="block py-2 text-white/80" href="/work/">Work</a>
+<a class="block py-2 text-white/80" href="/method/">The Method</a>
+<a class="block py-2 text-white/80" href="/blog/">Blog</a>
+<a class="block py-2 text-white/80" href="#insight">Philosophy</a>
+<a class="block py-2 text-white/80" href="#contact">Contact</a>
+<a class="block btn-primary text-center py-3 mt-4" href="#contact">GET A QUOTE</a>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center pt-32 pb-section-gap overflow-hidden">
+<!-- Shader Background -->
+
+<!-- Atmospheric Glow -->
+<div class="ambient-glow top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-60"></div>
+<div class="relative z-content max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<!-- Hero Content -->
+<div class="col-span-1 md:col-span-7 flex flex-col items-start space-y-8">
+<div class="inline-flex items-center space-x-2 border border-white/20 px-4 py-2 rounded-none glass-panel">
+<span class="w-2 h-2 bg-primary-container"></span>
+<span class="font-label-caps text-label-caps text-on-surface uppercase tracking-[0.2em]">Web Design &amp; Digital Solutions</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-display-hero md:text-display-hero text-white uppercase leading-[0.9]">
+                        BUILD A<br>
+<span class="text-primary-container">DIGITAL PRESENCE</span><br>
+                        THAT SELLS.
+                    </h1>
+<div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mt-8 w-full sm:w-auto">
+<a class="btn-primary px-10 py-5 font-label-caps text-label-caps text-center flex items-center justify-center space-x-2 w-full sm:w-auto text-lg px-12 py-6" href="#quote">
+<span class="">GET A QUOTE</span>
+<svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</a>
+<a class="btn-secondary px-10 py-5 font-label-caps text-label-caps text-center flex items-center justify-center space-x-2 w-full sm:w-auto text-lg px-12 py-6" href="#work">
+<span class="">VIEW OUR WORK</span>
+</a>
+</div>
+</div>
+<!-- Hero Logo Composition with Glow Breathing -->
+<div id="heroLogoContainer" class="col-span-1 md:col-span-5 relative mt-16 md:mt-0 flex justify-center md:justify-end">
+<!-- Breathing Reactor Glow behind logo -->
+<div class="hero-glow-breathing absolute inset-0 bg-primary-container/40 blur-[100px] rounded-full pointer-events-none"></div>
+<img id="heroLogo" alt="W Agency 3D Logo" width="700" height="700" fetchpriority="high" decoding="async" class="hero-logo-breathing w-full h-auto object-contain relative z-10 filter mix-blend-screen max-w-[700px] cursor-pointer" src="hero-logo.png">
+</div>
+</div>
+</section>
+<!-- Trust / Philosophy Section -->
+<section class="py-section-gap bg-surface-container-lowest relative border-t border-white/5" id="insight">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="col-span-1 md:col-span-4 flex flex-col justify-between">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-[0.2em] mb-8 md:mb-0">
+                        // Core Philosophy
+                    </h2>
+<div class="hidden md:block"><img src="hero-workstation.jpg" alt="Premium 3D workstation render showing agency website" width="800" height="600" loading="lazy" decoding="async" class="w-full h-auto rounded-lg shadow-2xl opacity-80 hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<div class="col-span-1 md:col-span-8">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-white leading-tight">
+                        "Your website isn't just your online presence. It's part of your sales process."
+                    </h3>
+<p class="mt-8 font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                        We don't just build sites; we architect digital vanguards. By fusing rigorous UX design, strategic positioning, and conversion-focused engineering, we transform passive visitors into active clients. The modern internet demands optical precision.
+                    </p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 pt-16 border-t border-white/10">
+<div class="glass-panel interactive-box p-6 flex flex-col items-start space-y-4">
+<span class="font-label-caps text-label-caps text-primary-container">01</span>
+<span class="font-body-md text-body-md text-white font-medium uppercase">Design</span>
+</div>
+<div class="glass-panel interactive-box p-6 flex flex-col items-start space-y-4">
+<span class="font-label-caps text-label-caps text-primary-container">02</span>
+<span class="font-body-md text-body-md text-white font-medium uppercase">UX/UI</span>
+</div>
+<div class="glass-panel interactive-box p-6 flex flex-col items-start space-y-4">
+<span class="font-label-caps text-label-caps text-primary-container">03</span>
+<span class="font-body-md text-body-md text-white font-medium uppercase">Strategy</span>
+</div>
+<div class="glass-panel interactive-box p-6 flex flex-col items-start space-y-4">
+<span class="font-label-caps text-label-caps text-primary-container">04</span>
+<span class="font-body-md text-body-md text-white font-medium uppercase">Conversion</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- The W Method Introduction Section -->
+<section class="py-section-gap relative border-t border-white/5 bg-[#080402] overflow-hidden" id="method">
+    <div class="ambient-glow top-1/2 right-0 -translate-y-1/2 opacity-20 pointer-events-none"></div>
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+            <div>
+                <h2 class="font-label-caps text-xs text-primary-container uppercase tracking-[0.2em] mb-4">// THE W METHOD</h2>
+                <h3 class="text-3xl md:text-5xl font-bold font-sora text-white leading-tight">
+                    CONVERSION MECHANISMS.<br><span class="text-primary-container">NOT DECEPTIVE TRICKS.</span>
+                </h3>
+            </div>
+            <div class="mt-6 md:mt-0">
+                <a class="text-white hover:text-primary-container transition-colors font-mono text-xs uppercase tracking-wider flex items-center space-x-2" href="/method/">
+                    <span>Deep Dive Into The Method</span>
+                    <svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="glass-panel p-8 rounded-xl">
+                <span class="text-primary-container font-mono font-bold text-lg block mb-2">01 / HOOK</span>
+                <h4 class="text-lg font-bold text-white mb-2">Immediate Value Hook</h4>
+                <p class="text-xs text-on-surface-variant leading-relaxed">Communicates what you do, who you serve, and why you are different within seconds above the fold.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-xl">
+                <span class="text-primary-container font-mono font-bold text-lg block mb-2">02 / FLOW</span>
+                <h4 class="text-lg font-bold text-white mb-2">Strategic User Journey</h4>
+                <p class="text-xs text-on-surface-variant leading-relaxed">Sequences information naturally to systematically answer questions and eliminate hesitation before calls to action.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-xl">
+                <span class="text-primary-container font-mono font-bold text-lg block mb-2">03 / ACTION</span>
+                <h4 class="text-lg font-bold text-white mb-2">Micro-Commitments</h4>
+                <p class="text-xs text-on-surface-variant leading-relaxed">Interactive calculators and progressive estimators that reduce friction and invite easy engagement.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section (Bento Grid) -->
+<section class="py-section-gap relative" id="services">
+<div class="ambient-glow top-0 right-0 opacity-40"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="mb-16 flex flex-col md:flex-row md:items-end justify-between">
+<div>
+<h2 class="font-label-caps text-label-caps text-primary-container uppercase tracking-[0.2em] mb-4">// Capabilities</h2>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-white">DIGITAL SOLUTIONS</h3>
+</div>
+<div class="mt-6 md:mt-0">
+<a class="text-white hover:text-primary-container transition-colors font-label-caps text-label-caps uppercase flex items-center space-x-2 group" href="#contact">
+<span class="">Discuss a Project</span>
+<svg class="w-4 h-4 inline-block transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</a>
+</div>
+</div>
+<!-- Architectural Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 auto-rows-[minmax(300px,auto)]">
+<!-- Main Service Box -->
+<a href="/services/web-design.html" class="md:col-span-8 glass-panel p-10 flex flex-col justify-between group hover:border-primary-container/50 transition-colors block">
+<div class="flex justify-between items-start">
+<svg class="w-8 h-8 text-on-surface-variant group-hover:text-primary-container transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary-container transition-colors">01</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-white mb-4 group-hover:text-primary-container transition-colors">Custom Website Design</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">Bespoke digital environments engineered from the ground up to reflect your brand's unique authority.</p>
+</div>
+</a>
+<!-- Side Service Box 1 -->
+<a href="/services/seo.html" class="md:col-span-4 glass-panel p-10 flex flex-col justify-between group hover:border-primary-container/50 transition-colors block">
+<div class="flex justify-between items-start">
+<svg class="w-8 h-8 text-on-surface-variant group-hover:text-primary-container transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/></svg>
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary-container transition-colors">02</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-white mb-2 group-hover:text-primary-container transition-colors">SEO Optimization</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Built to be found. Designed to be chosen.</p>
+</div>
+</a>
+<!-- Side Service Box 2 -->
+<a href="/services/conversion-optimization.html" class="md:col-span-4 glass-panel p-10 flex flex-col justify-between group hover:border-primary-container/50 transition-colors block">
+<div class="flex justify-between items-start">
+<svg class="w-8 h-8 text-on-surface-variant group-hover:text-primary-container transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/></svg>
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary-container transition-colors">03</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-white mb-2 group-hover:text-primary-container transition-colors">Conversion Design</h4>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Digital experiences engineered to turn visitors into real customers through strategic UX, compelling CTAs, and smart lead-generation forms.</p>
+</div>
+</a>
+<!-- Wide Bottom Box -->
+<a href="/services/website-redesign.html" class="md:col-span-8 glass-panel p-10 flex flex-col justify-between group hover:border-primary-container/50 transition-colors bg-[url('placeholder')] bg-cover bg-center block" data-alt="A dark, architectural abstract rendering" style="background-image: linear-gradient(rgba(15,15,15,0.9), rgba(15,15,15,0.9)), url('bg-redesign.jpg');">
+<div class="flex justify-between items-start">
+<svg class="w-8 h-8 text-on-surface-variant group-hover:text-primary-container transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary-container transition-colors">04</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-white mb-4 group-hover:text-primary-container transition-colors">Website Redesign</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">Transform obsolete platforms into modern, high-performance sales engines.</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Selected Work / Case Studies Showcase Section -->
+<section class="py-section-gap relative border-t border-white/5 bg-[#070402] overflow-hidden" id="work">
+<div class="ambient-glow top-0 right-0 opacity-20 pointer-events-none"></div>
+<div class="ambient-glow bottom-0 left-0 opacity-15 pointer-events-none"></div>
+
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+<div>
+<h2 class="font-label-caps text-label-caps text-primary-container uppercase tracking-[0.2em] mb-4">// SELECTED WORK</h2>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-white font-bold leading-tight">
+ENGINEERED FOR DISTINCTION.<br><span class="text-primary-container">BUILT FOR RESULTS.</span>
+</h3>
+</div>
+<p class="mt-6 md:mt-0 font-body-lg text-body-lg text-on-surface-variant max-w-md">
+A look into bespoke digital platforms and high-converting experiences we craft for ambitious businesses.
+</p>
+</div>
+
+<!-- Featured Showcase Item 1: Main Project Showcase (Luxe Grounds Hero) -->
+<div class="mb-12 glass-panel rounded-2xl border border-white/10 overflow-hidden shadow-2xl group hover:border-primary-container/40 transition-all duration-500 bg-[#0d0704]/90 backdrop-blur-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+
+<!-- Mockup Frame -->
+<div class="lg:col-span-7 bg-[#050505] border-b lg:border-b-0 lg:border-r border-white/10 flex flex-col">
+<!-- Browser Bar -->
+<div class="px-5 py-3.5 bg-[#120804] border-b border-white/10 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+<div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+<div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+<div class="ml-3 px-3 py-1 bg-white/5 rounded text-xs font-mono text-white/50 border border-white/10">luxegrounds.com</div>
+</div>
+<span class="text-[11px] font-label-caps text-primary-container font-semibold uppercase tracking-wider">Live Platform</span>
+</div>
+<!-- Image container with subtle zoom on hover -->
+<div class="overflow-hidden relative bg-[#050505] p-2 md:p-4">
+<img src="work-luxe.jpg" alt="Luxe Grounds Website Showcase" width="982" height="673" loading="lazy" decoding="async" class="w-full h-auto object-cover rounded-lg shadow-lg group-hover:scale-[1.02] transition-transform duration-700">
+</div>
+</div>
+
+<!-- Info Column -->
+<div class="lg:col-span-5 p-8 md:p-12 flex flex-col justify-between space-y-8">
+<div>
+<div class="flex items-center space-x-3 mb-4">
+<span class="px-3 py-1 bg-primary-container/10 border border-primary-container/30 text-primary-container font-label-caps text-xs uppercase tracking-wider rounded">Featured Client</span>
+<span class="text-xs text-on-surface-variant font-label-caps uppercase tracking-wider">High-End Landscaping</span>
+</div>
+<h4 class="font-headline-md text-2xl md:text-3xl text-white font-bold mb-4">Luxe Grounds — Luxury Outdoor Design Platform</h4>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+A bespoke digital experience engineered with immersive visual storytelling, high-speed performance architecture, and seamless quote request funnels that attract high-ticket property owners.
+</p>
+
+<!-- Tags -->
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-3 py-1 bg-white/5 border border-white/10 text-white/80 font-label-caps text-xs uppercase tracking-wider">Custom Web Design</span>
+<span class="px-3 py-1 bg-white/5 border border-white/10 text-white/80 font-label-caps text-xs uppercase tracking-wider">SEO Architecture</span>
+<span class="px-3 py-1 bg-white/5 border border-white/10 text-white/80 font-label-caps text-xs uppercase tracking-wider">Conversion UX</span>
+<span class="px-3 py-1 bg-white/5 border border-white/10 text-white/80 font-label-caps text-xs uppercase tracking-wider">Mobile First</span>
+</div>
+</div>
+
+<div class="pt-6 border-t border-white/10 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span class="text-xs font-mono text-white/80 uppercase tracking-wider">Case Study Available</span>
+</div>
+<a href="/work/luxe-grounds.html" class="btn-primary px-6 py-3 text-xs uppercase tracking-wider font-bold inline-flex items-center space-x-2">
+<span>Read Case Study</span>
+<svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Secondary Showcase Grid (2 Columns: Portfolio Grid & Brand Authority) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+
+<!-- Card 1: Curated Portfolio Showcase -->
+<div class="glass-panel rounded-2xl border border-white/10 overflow-hidden shadow-2xl group hover:border-primary-container/40 transition-all duration-500 bg-[#0d0704]/90 backdrop-blur-xl flex flex-col justify-between">
+<div>
+<!-- Browser Bar -->
+<div class="px-5 py-3 bg-[#120804] border-b border-white/10 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500/80"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500/80"></div>
+<span class="ml-2 text-xs font-mono text-white/70">Portfolio Architecture</span>
+</div>
+<svg class="w-4 h-4 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+</div>
+<div class="overflow-hidden bg-[#050505] p-3">
+<img src="work-portfolio.png" alt="Curated Portfolio Masonry Grid" width="661" height="663" loading="lazy" decoding="async" class="w-full h-auto object-cover rounded-lg shadow group-hover:scale-[1.02] transition-transform duration-700">
+</div>
+<div class="p-6 md:p-8">
+<span class="font-label-caps text-xs text-primary-container uppercase tracking-wider block mb-2">Visual Showcase</span>
+<h4 class="font-headline-md text-xl font-bold text-white mb-3">Architectural Work Portfolio</h4>
+<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+Dynamic masonry grids built to present completed projects with stunning clarity, driving customer trust and proving craft excellence.
+</p>
+</div>
+</div>
+</div>
+
+<!-- Card 2: Brand Authority & About Story -->
+<div class="glass-panel rounded-2xl border border-white/10 overflow-hidden shadow-2xl group hover:border-primary-container/40 transition-all duration-500 bg-[#0d0704]/90 backdrop-blur-xl flex flex-col justify-between">
+<div>
+<!-- Browser Bar -->
+<div class="px-5 py-3 bg-[#120804] border-b border-white/10 flex items-center justify-between">
+<div class="flex items-center space-x-2">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500/80"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500/80"></div>
+<span class="ml-2 text-xs font-mono text-white/70">Brand Authority</span>
+</div>
+<svg class="w-4 h-4 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+</div>
+<div class="overflow-hidden bg-[#050505] p-3">
+<img src="work-about.png" alt="Brand Authority & Metrics Architecture" width="934" height="679" loading="lazy" decoding="async" class="w-full h-auto object-cover rounded-lg shadow group-hover:scale-[1.02] transition-transform duration-700">
+</div>
+<div class="p-6 md:p-8">
+<span class="font-label-caps text-xs text-primary-container uppercase tracking-wider block mb-2">Authority & Social Proof</span>
+<h4 class="font-headline-md text-xl font-bold text-white mb-3">Metrics & Trust Architecture</h4>
+<p class="font-body-md text-sm text-on-surface-variant leading-relaxed">
+High-impact storytelling sections integrated with key experience metrics to maximize customer trust.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Bottom CTA Card inside Work section -->
+<div class="glass-panel p-8 md:p-10 rounded-2xl border border-primary-container/30 bg-gradient-to-r from-[#170b06] to-[#0d0704] flex flex-col md:flex-row items-center justify-between gap-6 shadow-2xl">
+<div>
+<h4 class="font-headline-md text-xl md:text-2xl text-white font-bold mb-2">Want a website designed to this standard for your business?</h4>
+<p class="font-body-md text-sm text-on-surface-variant">Let's build a modern, high-converting digital platform customized to your industry.</p>
+</div>
+<div class="flex space-x-4">
+<a href="/work/" class="btn-secondary px-6 py-4 text-xs uppercase tracking-wider whitespace-nowrap">View All Work</a>
+<a href="#contact" class="btn-primary px-6 py-4 text-xs uppercase tracking-wider font-bold whitespace-nowrap shadow-[0_0_20px_rgba(255,107,0,0.35)]">Start Your Project</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Who We Build For (Concise Industry Grid) -->
+<section class="py-section-gap relative border-t border-white/5 bg-[#060302]">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="mb-14 text-center max-w-3xl mx-auto">
+            <h2 class="font-label-caps text-xs text-primary-container uppercase tracking-[0.2em] mb-4">// WHO WE BUILD FOR</h2>
+            <h3 class="text-3xl md:text-4xl font-bold font-sora text-white">Engineered For Service Leaders</h3>
+            <p class="text-sm text-on-surface-variant mt-4">We work with ambitious service businesses who need a website that performs as a serious client-acquisition asset.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <a href="/industries/landscaping.html" class="glass-panel p-5 rounded-xl text-center hover:border-primary-container/50 transition-all block">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Landscaping</span>
+                <span class="text-[10px] text-white/70">View Specialization →</span>
+            </a>
+            <div class="glass-panel p-5 rounded-xl text-center">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Medical & Dental</span>
+                <span class="text-[10px] text-white/70">Clinic Authority</span>
+            </div>
+            <div class="glass-panel p-5 rounded-xl text-center">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Contractors</span>
+                <span class="text-[10px] text-white/70">Trade Quoting</span>
+            </div>
+            <div class="glass-panel p-5 rounded-xl text-center">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Real Estate</span>
+                <span class="text-[10px] text-white/70">High-Ticket Listings</span>
+            </div>
+            <div class="glass-panel p-5 rounded-xl text-center">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Legal & Financial</span>
+                <span class="text-[10px] text-white/70">Client Intake</span>
+            </div>
+            <div class="glass-panel p-5 rounded-xl text-center">
+                <svg class="w-6 h-6 text-primary-container mb-2 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <span class="text-xs font-mono text-white font-bold block">Local Services</span>
+                <span class="text-[10px] text-white/70">Rapid Lead Booking</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Signature Lead Capture Section -->
+<section class="py-section-gap relative border-t border-white/5 bg-surface-container-lowest overflow-hidden" id="lead-capture">
+<!-- background elements -->
+<div class="ambient-glow top-1/2 left-0 -translate-y-1/2 opacity-30"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+<div class="text-center mb-16">
+<h2 class="font-label-caps text-label-caps text-primary-container uppercase tracking-[0.2em] mb-4">// Signature Lead Capture</h2>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-white leading-tight">
+                DON'T JUST GET VISITORS.<br><span class="text-primary-container">GET LEADS.</span>
+</h3>
+<p class="mt-6 font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                We design the journey from "just looking" to "let's talk."
+            </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Strategic Messaging -->
+<div class="lg:col-span-5 flex flex-col space-y-10">
+<div>
+<h4 class="font-headline-md text-headline-md text-white mb-4">Beautiful isn't enough.</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        A stunning website that doesn't convert is just digital art. We architect high-converting funnels disguised as premium web experiences. Our multi-step capture forms are engineered to reduce friction and qualify leads instantly.
+                    </p>
+</div>
+<!-- Visitor Journey Flow -->
+<div class="glass-panel p-6 border-l-4 border-l-primary-container">
+<h5 class="font-label-caps text-label-caps text-white uppercase mb-6 tracking-widest">The Conversion Architecture</h5>
+<div class="space-y-4 relative before:absolute before:inset-y-0 before:left-3 before:w-px before:bg-white/10 ml-2">
+<div class="flex items-center relative">
+<span class="w-6 h-6 rounded-full bg-surface border border-white/20 flex items-center justify-center z-10 mr-4"><span class="w-2 h-2 rounded-full bg-white/50"></span></span>
+<span class="font-body-md text-body-md text-on-surface-variant">Visitor arrives</span>
+</div>
+<div class="flex items-center relative">
+<span class="w-6 h-6 rounded-full bg-surface border border-white/20 flex items-center justify-center z-10 mr-4"><span class="w-2 h-2 rounded-full bg-white/50"></span></span>
+<span class="font-body-md text-body-md text-on-surface-variant">Immersive Discovery</span>
+</div>
+<div class="flex items-center relative">
+<span class="w-6 h-6 rounded-full bg-surface border border-white/20 flex items-center justify-center z-10 mr-4"><span class="w-2 h-2 rounded-full bg-primary-container"></span></span>
+<span class="font-body-md text-body-md text-white font-medium">Irresistible Offer</span>
+</div>
+<div class="flex items-center relative">
+<span class="w-6 h-6 rounded-full bg-surface border border-white/20 flex items-center justify-center z-10 mr-4"><span class="w-2 h-2 rounded-full bg-white/50"></span></span>
+<span class="font-body-md text-body-md text-on-surface-variant">Frictionless Action</span>
+</div>
+<div class="flex items-center relative">
+<span class="w-6 h-6 rounded-full bg-primary-container flex items-center justify-center z-10 mr-4 shadow-[0_0_10px_rgba(255,107,0,0.5)]"><svg class="w-3 h-3 text-surface inline-block" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+<span class="font-body-md text-body-md text-primary-container font-medium">Qualified Lead</span>
+</div>
+</div>
+</div>
+<div>
+<a class="btn-primary px-8 py-4 font-label-caps text-label-caps text-center inline-flex items-center justify-center space-x-2" href="#contact">
+<span class="">BUILD MY WEBSITE</span>
+<svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</a>
+</div>
+</div>
+<!-- Interactive Demo -->
+<div class="lg:col-span-7 relative mt-12 lg:mt-0">
+<div class="glass-panel p-2 rounded-xl border border-white/10 shadow-2xl relative overflow-hidden bg-[#0A0A0A]">
+<!-- Browser Chrome -->
+<div class="flex items-center px-4 py-3 border-b border-white/5 bg-white/[0.02]">
+<div class="flex space-x-2">
+<div class="w-3 h-3 rounded-full bg-white/20"></div>
+<div class="w-3 h-3 rounded-full bg-white/20"></div>
+<div class="w-3 h-3 rounded-full bg-white/20"></div>
+</div>
+<div class="mx-auto text-xs font-label-caps text-white/70 tracking-widest">Interactive Component Demo</div>
+</div>
+<!-- App Content -->
+<div class="p-6 md:p-10">
+<!-- Tabs -->
+<div class="flex overflow-x-auto space-x-2 mb-8 pb-2 hide-scrollbar" id="formulaTabs">
+<button data-industry="landscaper" class="industry-tab px-4 py-2 bg-primary-container text-[#050505] font-label-caps text-xs uppercase tracking-wider rounded whitespace-nowrap font-bold shadow-[0_0_12px_rgba(255,107,0,0.35)] transition-all">Landscaper</button>
+<button data-industry="dentist" class="industry-tab px-4 py-2 bg-white/5 text-white/80 hover:text-white hover:bg-white/10 font-label-caps text-xs uppercase tracking-wider rounded transition-all whitespace-nowrap">Dentist</button>
+<button data-industry="realestate" class="industry-tab px-4 py-2 bg-white/5 text-white/80 hover:text-white hover:bg-white/10 font-label-caps text-xs uppercase tracking-wider rounded transition-all whitespace-nowrap">Real Estate</button>
+<button data-industry="service" class="industry-tab px-4 py-2 bg-white/5 text-white/80 hover:text-white hover:bg-white/10 font-label-caps text-xs uppercase tracking-wider rounded transition-all whitespace-nowrap">Service</button>
+</div>
+<!-- Form Area -->
+<div class="bg-surface-container-low border border-white/10 p-8 rounded-lg relative min-h-[460px] flex flex-col justify-between">
+<!-- Progress Steps -->
+<div class="flex items-center justify-between mb-8 relative">
+<div class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-px bg-white/10 z-0"></div>
+<div id="formProgressBar" class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-px bg-primary-container z-0 transition-all duration-300"></div>
+<div id="stepDot1" class="relative z-10 flex flex-col items-center cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-primary-container text-[#050505] flex items-center justify-center font-bold text-sm mb-2 shadow-[0_0_15px_rgba(255,107,0,0.4)] transition-all">1</div>
+<span class="text-[10px] font-label-caps uppercase text-primary-container font-semibold">Service</span>
+</div>
+<div id="stepDot2" class="relative z-10 flex flex-col items-center cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-surface border border-white/20 text-white/70 flex items-center justify-center font-bold text-sm mb-2 transition-all">2</div>
+<span class="text-[10px] font-label-caps uppercase text-white/70">Details</span>
+</div>
+<div id="stepDot3" class="relative z-10 flex flex-col items-center cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-surface border border-white/20 text-white/70 flex items-center justify-center font-bold text-sm mb-2 transition-all">3</div>
+<span class="text-[10px] font-label-caps uppercase text-white/70">Contact</span>
+</div>
+</div>
+
+<!-- Step 1 View: Service Options -->
+<div id="step1View" class="transition-all duration-300">
+<div class="text-center mb-8">
+<h4 id="formulaHeading" class="font-headline-md text-2xl text-white mb-2 transition-opacity duration-200">Get Your Free Quote</h4>
+<p id="formulaSubheading" class="text-sm text-on-surface-variant transition-opacity duration-200">What kind of project are you looking for?</p>
+</div>
+<!-- Dynamic Options Grid -->
+<div id="formulaOptionsGrid" class="grid grid-cols-2 gap-4 mb-8">
+<!-- Rendered via JS -->
+</div>
+<button id="step1NextBtn" class="w-full bg-white text-[#050505] py-4 font-label-caps text-xs uppercase tracking-widest font-bold hover:bg-primary-container transition-colors flex justify-center items-center space-x-2 group relative overflow-hidden">
+<span class="">Continue</span>
+<svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</button>
+</div>
+
+<!-- Step 2 View: Project Details -->
+<div id="step2View" class="hidden transition-all duration-300">
+<div class="text-center mb-8">
+<h4 id="step2Heading" class="font-headline-md text-2xl text-white mb-2">Project Timeline</h4>
+<p id="step2Subheading" class="text-sm text-on-surface-variant">When would you like work to begin?</p>
+</div>
+<div id="step2OptionsGrid" class="grid grid-cols-2 gap-4 mb-8">
+<!-- Rendered via JS -->
+</div>
+<div class="flex space-x-4">
+<button id="step2BackBtn" class="w-1/3 border border-white/20 text-white py-4 font-label-caps text-xs uppercase tracking-widest font-bold hover:bg-white/10 transition-colors">
+Back
+</button>
+<button id="step2NextBtn" class="w-2/3 bg-white text-[#050505] py-4 font-label-caps text-xs uppercase tracking-widest font-bold hover:bg-primary-container transition-colors flex justify-center items-center space-x-2">
+<span>Continue</span>
+<svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+</button>
+</div>
+</div>
+
+<!-- Step 3 View: Contact Info -->
+<div id="step3View" class="hidden transition-all duration-300">
+<div class="text-center mb-6">
+<h4 class="font-headline-md text-2xl text-white mb-2">Almost Done!</h4>
+<p class="text-sm text-on-surface-variant">Where should we send your custom estimate?</p>
+</div>
+<div class="space-y-4 mb-8">
+<input id="userNameInput" type="text" placeholder="Full Name" class="w-full bg-[#120905] border border-white/20 text-white px-4 py-3 rounded text-sm focus:border-primary-container focus:outline-none transition-colors">
+<input id="userContactInput" type="text" placeholder="Phone Number or Email" class="w-full bg-[#120905] border border-white/20 text-white px-4 py-3 rounded text-sm focus:border-primary-container focus:outline-none transition-colors">
+</div>
+<div class="flex space-x-4">
+<button id="step3BackBtn" class="w-1/3 border border-white/20 text-white py-4 font-label-caps text-xs uppercase tracking-widest font-bold hover:bg-white/10 transition-colors">
+Back
+</button>
+<button id="step3SubmitBtn" class="w-2/3 bg-primary-container text-[#050505] py-4 font-label-caps text-xs uppercase tracking-widest font-bold hover:brightness-110 transition-all flex justify-center items-center space-x-2 shadow-[0_0_15px_rgba(255,107,0,0.4)]">
+<span>Get Instant Estimate</span>
+<svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+</button>
+</div>
+</div>
+
+<!-- Step 4 View: Success State -->
+<div id="step4View" class="hidden text-center py-10">
+<div class="w-16 h-16 rounded-full bg-primary-container/20 border border-primary-container text-primary-container flex items-center justify-center mx-auto mb-4 shadow-[0_0_20px_rgba(255,107,0,0.3)]">
+<svg class="w-10 h-10 text-primary-container mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<h4 class="text-2xl font-bold text-white mb-2">Request Received!</h4>
+<p class="text-sm text-on-surface-variant max-w-sm mx-auto mb-6">Our team is reviewing your requirements and will connect with you within 15 minutes.</p>
+<button id="stepResetBtn" class="border border-white/20 text-white px-6 py-2.5 font-label-caps text-xs uppercase tracking-wider hover:bg-white/10 transition-colors">
+Test Another Industry
+</button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Strategic FAQ Section -->
+<section class="py-section-gap relative border-t border-white/5 bg-[#080402]" id="faq">
+    <div class="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop">
+        <div class="text-center mb-14">
+            <h2 class="font-label-caps text-xs text-primary-container uppercase tracking-[0.2em] mb-4">// FREQUENTLY ASKED QUESTIONS</h2>
+            <h3 class="text-3xl md:text-4xl font-bold font-sora text-white">Clear Answers Before We Begin</h3>
+        </div>
+        
+        <div class="space-y-4" id="faqAccordion">
+            <div class="glass-panel p-6 rounded-xl cursor-pointer faq-item" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center">
+                    <h4 class="text-base font-bold text-white font-sora">What types of businesses do you work with?</h4>
+                    <svg class="w-5 h-5 text-primary-container faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-3 hidden faq-answer">
+                    We work with service businesses of any type—including landscapers, contractors, medical and dental practices, lawyers, real estate specialists, and commercial service companies. We focus on businesses where client trust and inbound inquiries drive revenue.
+                </p>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl cursor-pointer faq-item" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center">
+                    <h4 class="text-base font-bold text-white font-sora">Do you build e-commerce or product stores?</h4>
+                    <svg class="w-5 h-5 text-primary-container faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-3 hidden faq-answer">
+                    No. We intentionally specialize 100% in service businesses and client-acquisition platforms. We do not build complex retail e-commerce stores with hundreds of products.
+                </p>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl cursor-pointer faq-item" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center">
+                    <h4 class="text-base font-bold text-white font-sora">What is "The W Method" / conversion architecture?</h4>
+                    <svg class="w-5 h-5 text-primary-container faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-3 hidden faq-answer">
+                    The W Method is our internal framework that structures visual hierarchy, strategic user journeys, micro-commitment estimators, and trust anchors to guide visitors into becoming booked client inquiries.
+                </p>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl cursor-pointer faq-item" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center">
+                    <h4 class="text-base font-bold text-white font-sora">Do I own my website and code completely?</h4>
+                    <svg class="w-5 h-5 text-primary-container faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-3 hidden faq-answer">
+                    Yes, 100%. You retain full ownership of all code, assets, design files, and content with zero proprietary lock-in.
+                </p>
+            </div>
+
+            <div class="glass-panel p-6 rounded-xl cursor-pointer faq-item" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center">
+                    <h4 class="text-base font-bold text-white font-sora">How does SEO fit into the build?</h4>
+                    <svg class="w-5 h-5 text-primary-container faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </div>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-3 hidden faq-answer">
+                    We build technical SEO directly into your codebase: semantic HTML5 tags, Schema.org JSON-LD structured data, Open Graph metadata, sitemap.xml, robots.txt, and fast Core Web Vitals architecture.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA / Conversion Section -->
+<section class="py-section-gap relative overflow-hidden bg-primary-container">
+<!-- Glitch/Noise overlay effect -->
+<div class="absolute inset-0 opacity-[0.03] mix-blend-overlay" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 flex flex-col items-center text-center">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-display-hero md:text-display-hero text-[#050505] uppercase leading-[0.85] max-w-4xl mix-blend-color-burn font-black">
+                    YOUR BUSINESS DESERVES A WEBSITE THAT WORKS AS HARD AS YOU DO.
+                </h2>
+<div class="mt-16 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-12">
+<a class="font-label-caps text-label-caps text-[#050505] hover:text-white transition-colors flex items-center space-x-3 text-lg border-b border-[#050505]/20 pb-2 cursor-pointer" href="https://mail.google.com/mail/?view=cm&fs=1&to=justworkwork90@gmail.com" target="_blank" rel="noopener noreferrer" onclick="openEmailComposer(event)">
+<svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+<span class="">justworkwork90@gmail.com</span>
+</a>
+<a class="font-label-caps text-label-caps text-[#050505] hover:text-white transition-colors flex items-center space-x-3 text-lg border-b border-[#050505]/20 pb-2 cursor-pointer" href="https://wa.me/212664238498" target="_blank" rel="noopener noreferrer">
+<svg class="w-5 h-5 inline-block fill-current" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+<span class="">+212 664 238 498</span>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Start Your Project / Contact Section -->
+<section class="py-section-gap relative border-t border-white/5 bg-surface-container-lowest overflow-hidden" id="contact">
+<div id="quote" class="absolute -top-24"></div>
+<div class="ambient-glow bottom-0 right-0 opacity-20 pointer-events-none"></div>
+
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-gutter items-center">
+
+<!-- Left Column: Information -->
+<div class="lg:col-span-5 flex flex-col justify-between space-y-8">
+<div>
+<h2 class="font-label-caps text-label-caps text-primary-container uppercase tracking-[0.2em] mb-4">// CONTACT</h2>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-white font-bold leading-tight mb-6">
+Start Your Project
+</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+Whether you're looking to architect a high-converting digital platform, elevate your online brand authority, or redesign obsolete systems into revenue engines, we're here to help.
+</p>
+</div>
+
+<!-- Contact Methods Badges -->
+<div class="space-y-6 pt-6 border-t border-white/10">
+<!-- Phone / WhatsApp -->
+<a href="https://wa.me/212664238498" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-5 group p-2 -ml-2 rounded-lg hover:bg-white/[0.03] transition-colors cursor-pointer">
+<div class="w-14 h-14 rounded-full bg-surface-container border border-white/10 flex items-center justify-center text-primary-container group-hover:border-[#25D366] group-hover:bg-[#25D366]/10 group-hover:text-[#25D366] transition-all shrink-0">
+<svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+</div>
+<div>
+<div class="font-label-caps text-xs text-on-surface-variant tracking-wider uppercase mb-1">Phone / WhatsApp</div>
+<div class="font-body-md text-base text-white font-semibold group-hover:text-[#25D366] transition-colors">+212 664 238 498</div>
+</div>
+</a>
+
+<!-- Email -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=justworkwork90@gmail.com" target="_blank" rel="noopener noreferrer" onclick="openEmailComposer(event)" class="flex items-center space-x-5 group p-2 -ml-2 rounded-lg hover:bg-white/[0.03] transition-colors cursor-pointer">
+<div class="w-14 h-14 rounded-full bg-surface-container border border-white/10 flex items-center justify-center text-primary-container group-hover:border-primary-container/50 group-hover:bg-primary-container/10 transition-all shrink-0">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+</div>
+<div>
+<div class="font-label-caps text-xs text-on-surface-variant tracking-wider uppercase mb-1">Email</div>
+<div class="font-body-md text-base text-white font-semibold group-hover:text-primary-container transition-colors break-all">justworkwork90@gmail.com</div>
+</div>
+</a>
+</div>
+</div>
+
+<!-- Right Column: Project Inquiry Form -->
+<div class="lg:col-span-7">
+<div class="glass-panel p-8 md:p-12 rounded-2xl border border-white/10 shadow-2xl relative bg-[#0e0704]/90 backdrop-blur-xl">
+<form id="projectInquiryForm" action="https://formspree.io/f/xwlkkwaz" method="POST" class="space-y-5" onsubmit="handleProjectSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label for="clientName" class="block font-label-caps text-xs text-white/80 uppercase tracking-wider mb-2 font-medium">Your Name *</label>
+<input type="text" id="clientName" name="name" required placeholder="John Doe" class="w-full bg-[#170b06] border border-white/10 rounded-lg px-4 py-3.5 text-white placeholder-white/30 text-sm focus:border-primary-container focus:outline-none transition-colors">
+</div>
+<div>
+<label for="clientEmail" class="block font-label-caps text-xs text-white/80 uppercase tracking-wider mb-2 font-medium">Email Address *</label>
+<input type="email" id="clientEmail" name="email" required placeholder="john@company.com" class="w-full bg-[#170b06] border border-white/10 rounded-lg px-4 py-3.5 text-white placeholder-white/30 text-sm focus:border-primary-container focus:outline-none transition-colors">
+</div>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-caps text-xs text-white/80 uppercase tracking-wider mb-2 font-medium">Business / Industry</label>
+<input type="text" name="industry" placeholder="e.g. Landscaping, Dental, Real Estate" class="w-full bg-[#170b06] border border-white/10 rounded-lg px-4 py-3.5 text-white placeholder-white/30 text-sm focus:border-primary-container focus:outline-none transition-colors">
+</div>
+<div>
+<label class="block font-label-caps text-xs text-white/80 uppercase tracking-wider mb-2 font-medium">Current Website (If Any)</label>
+<input type="text" name="website" placeholder="www.yourcompany.com" class="w-full bg-[#170b06] border border-white/10 rounded-lg px-4 py-3.5 text-white placeholder-white/30 text-sm focus:border-primary-container focus:outline-none transition-colors">
+</div>
+</div>
+
+<div>
+<label for="clientMessage" class="block font-label-caps text-xs text-white/80 uppercase tracking-wider mb-2 font-medium">Project Scope &amp; Goals *</label>
+<textarea id="clientMessage" name="message" rows="4" required placeholder="Tell us about your business goals and what you want to achieve with your website..." class="w-full bg-[#170b06] border border-white/10 rounded-lg px-4 py-3.5 text-white placeholder-white/30 text-sm focus:border-primary-container focus:outline-none transition-colors resize-none"></textarea>
+</div>
+
+<button type="submit" id="submitProjectBtn" class="btn-primary w-full py-4 rounded-lg font-label-caps text-xs uppercase tracking-widest font-bold flex justify-center items-center space-x-2 group relative overflow-hidden cursor-pointer shadow-[0_0_20px_rgba(255,107,0,0.35)]">
+<span>Send Project Message</span>
+<svg class="w-4 h-4 inline-block transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+</button>
+</form>
+
+<!-- Success Feedback Message -->
+<div id="projectSuccessMessage" class="hidden text-center py-10 space-y-4">
+<div class="w-16 h-16 rounded-full bg-primary-container/20 border border-primary-container text-primary-container flex items-center justify-center mx-auto shadow-[0_0_20px_rgba(255,107,0,0.3)]">
+<svg class="w-10 h-10 text-primary-container mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+</div>
+<h4 class="text-2xl font-bold text-white">Message Sent!</h4>
+<p class="text-sm text-on-surface-variant max-w-md mx-auto">Thank you for reaching out. We will review your project details and get back to you within 24 hours.</p>
+<button type="button" onclick="resetProjectForm()" class="mt-4 border border-white/20 text-white px-6 py-2.5 font-label-caps text-xs uppercase tracking-wider hover:bg-white/10 transition-colors rounded">
+Send Another Message
+</button>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Component -->
+<footer class="bg-[#090503] w-full py-16 px-margin-mobile md:px-margin-desktop border-t border-white/10">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-gutter items-start">
+<!-- Brand / Logo -->
+<div class="col-span-1 md:col-span-4 mb-8 md:mb-0">
+<a href="/" class="inline-block mb-4 hover:opacity-90 transition-opacity">
+<img src="/logo.png" alt="W AGENCY" width="380" height="151" class="h-10 md:h-12 w-auto object-contain" decoding="async">
+</a>
+<div class="font-label-caps text-xs text-on-surface-variant tracking-wider uppercase mb-3">
+Web Design &amp; Digital Solutions
+</div>
+<p class="text-xs text-white/50 max-w-sm">Custom digital architecture engineered for service businesses to turn visitors into booked clients.</p>
+</div>
+
+<!-- Navigation Links -->
+<div class="col-span-1 md:col-span-4 space-y-2 text-xs font-mono text-white/60">
+<strong class="text-white uppercase tracking-wider block mb-3">Navigation</strong>
+<div><a href="/services/" class="hover:text-white">Services Overview</a></div>
+<div><a href="/services/web-design.html" class="hover:text-white">Custom Web Design</a></div>
+<div><a href="/services/website-redesign.html" class="hover:text-white">Website Redesign</a></div>
+<div><a href="/services/seo.html" class="hover:text-white">SEO Optimization</a></div>
+<div><a href="/work/" class="hover:text-white">Selected Work &amp; Case Studies</a></div>
+<div><a href="/method/" class="hover:text-white">The W Method</a></div>
+<div><a href="/blog/" class="hover:text-white">Blog &amp; Insights</a></div>
+<div><a href="/contact/" class="hover:text-white">Contact &amp; Scope</a></div>
+</div>
+
+<!-- Big WhatsApp and Email Links -->
+<div class="col-span-1 md:col-span-4 flex flex-col gap-3">
+<strong class="text-white uppercase tracking-wider text-xs font-mono mb-1">Direct Channels</strong>
+<a href="https://wa.me/212664238498" target="_blank" rel="noopener noreferrer" class="glass-panel p-3 px-5 rounded-xl flex items-center space-x-3 group hover:border-[#25D366]/50 transition-all">
+<div class="w-9 h-9 rounded-full bg-[#25D366]/10 border border-[#25D366]/30 flex items-center justify-center text-[#25D366] shrink-0">
+<svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+</div>
+<div>
+<div class="font-mono text-[9px] text-white/50 uppercase">WhatsApp Chat</div>
+<div class="text-xs font-bold text-white group-hover:text-[#25D366] transition-colors">+212 664 238 498</div>
+</div>
+</a>
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=justworkwork90@gmail.com" target="_blank" rel="noopener noreferrer" onclick="openEmailComposer(event)" class="glass-panel p-3 px-5 rounded-xl flex items-center space-x-3 group hover:border-primary-container/50 transition-all">
+<div class="w-9 h-9 rounded-full bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container shrink-0">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+</div>
+<div>
+<div class="font-mono text-[9px] text-white/50 uppercase">Email Composer</div>
+<div class="text-xs font-bold text-white group-hover:text-primary-container transition-colors break-all">justworkwork90@gmail.com</div>
+</div>
+</a>
+</div>
+</div>
+</footer>
+
+<script>
+    // Mobile Drawer Toggle
+    (function() {
+        const btn = document.getElementById('mobileMenuBtn');
+        const drawer = document.getElementById('mobileDrawer');
+        if (btn && drawer) {
+            btn.addEventListener('click', () => {
+                const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', !isExpanded);
+                btn.setAttribute('aria-label', !isExpanded ? 'Close navigation menu' : 'Open navigation menu');
+                drawer.classList.toggle('hidden');
+            });
+        }
+    })();
+
+    // FAQ Accordion Toggle
+    function toggleFaq(element) {
+        const answer = element.querySelector('.faq-answer');
+        const icon = element.querySelector('.faq-icon');
+        if (answer) {
+            const isHidden = answer.classList.contains('hidden');
+            document.querySelectorAll('.faq-answer').forEach(a => a.classList.add('hidden'));
+            document.querySelectorAll('.faq-icon').forEach(i => i.textContent = 'expand_more');
+            if (isHidden) {
+                answer.classList.remove('hidden');
+                if (icon) icon.textContent = 'expand_less';
+            }
+        }
+    }
+    // Smooth 3D Interactive Parallax for Hero Logo
+    (function() {
+        const container = document.getElementById('heroLogoContainer');
+        const logo = document.getElementById('heroLogo');
+        if (!container || !logo) return;
+
+        let mouseX = 0, mouseY = 0;
+        let targetX = 0, targetY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            const rect = container.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            
+            targetX = (e.clientX - centerX) / (window.innerWidth / 2);
+            targetY = (e.clientY - centerY) / (window.innerHeight / 2);
+        });
+
+        function animateParallax() {
+            mouseX += (targetX - mouseX) * 0.04;
+            mouseY += (targetY - mouseY) * 0.04;
+
+            container.style.transform = `perspective(1200px) rotateY(${mouseX * 10}deg) rotateX(${-mouseY * 8}deg)`;
+            requestAnimationFrame(animateParallax);
+        }
+        animateParallax();
+    })();
+
+    // Multi-Industry Interactive Lead Capture Formula Logic
+    (function() {
+        const formulaData = {
+            landscaper: {
+                title: "Get Your Free Quote",
+                subtitle: "What kind of project are you looking for?",
+                step2Title: "Project Timeline",
+                step2Subtitle: "When would you like work to begin?",
+                options: [
+                    { id: "lawn", title: "Lawn Care", icon: "yard" },
+                    { id: "landscaping", title: "Landscaping", icon: "eco" },
+                    { id: "hardscaping", title: "Hardscaping", icon: "deck" },
+                    { id: "maintenance", title: "Maintenance", icon: "cleaning_services" }
+                ],
+                step2Options: ["Immediately", "Within 2 Weeks", "Within a Month", "Flexible"]
+            },
+            dentist: {
+                title: "Book Your Appointment",
+                subtitle: "Select the dental service you need:",
+                step2Title: "Preferred Time",
+                step2Subtitle: "When is the best time for your consultation?",
+                options: [
+                    { id: "checkup", title: "General Checkup", icon: "health_and_safety" },
+                    { id: "whitening", title: "Teeth Whitening", icon: "auto_fix_high" },
+                    { id: "implants", title: "Dental Implants", icon: "medical_services" },
+                    { id: "emergency", title: "Emergency Care", icon: "emergency" }
+                ],
+                step2Options: ["Earliest Available", "Morning (8am - 12pm)", "Afternoon (12pm - 5pm)", "Saturday"]
+            },
+            realestate: {
+                title: "Find Your Perfect Property",
+                subtitle: "What are your real estate goals?",
+                step2Title: "Investment Range",
+                step2Subtitle: "What is your target budget or property value?",
+                options: [
+                    { id: "buy", title: "Buy a Home", icon: "home" },
+                    { id: "sell", title: "Sell a Property", icon: "real_estate_agent" },
+                    { id: "valuation", title: "Property Valuation", icon: "analytics" },
+                    { id: "commercial", title: "Commercial Space", icon: "domain" }
+                ],
+                step2Options: ["Under $250k", "$250k - $500k", "$500k - $1M", "$1M+"]
+            },
+            service: {
+                title: "Request Service Estimate",
+                subtitle: "What type of service do you require?",
+                step2Title: "Service Urgency",
+                step2Subtitle: "How quickly do you need this completed?",
+                options: [
+                    { id: "installation", title: "Installation", icon: "construction" },
+                    { id: "repair", title: "Repair & Fix", icon: "home_repair_service" },
+                    { id: "consultation", title: "Consultation", icon: "support_agent" },
+                    { id: "custom", title: "Custom Project", icon: "design_services" }
+                ],
+                step2Options: ["Same Day / Emergency", "Within 48 Hours", "This Week", "Planning Stage"]
+            }
+        };
+
+        let currentIndustry = "landscaper";
+        let selectedOption = 0;
+        let selectedStep2Option = 0;
+
+        const tabs = document.querySelectorAll('.industry-tab');
+        const heading = document.getElementById('formulaHeading');
+        const subheading = document.getElementById('formulaSubheading');
+        const optionsGrid = document.getElementById('formulaOptionsGrid');
+        const step2OptionsGrid = document.getElementById('step2OptionsGrid');
+        const step2Heading = document.getElementById('step2Heading');
+        const step2Subheading = document.getElementById('step2Subheading');
+
+        const step1View = document.getElementById('step1View');
+        const step2View = document.getElementById('step2View');
+        const step3View = document.getElementById('step3View');
+        const step4View = document.getElementById('step4View');
+
+        const dot1 = document.getElementById('stepDot1');
+        const dot2 = document.getElementById('stepDot2');
+        const dot3 = document.getElementById('stepDot3');
+        const progressBar = document.getElementById('formProgressBar');
+
+        const iconSvgMap = {
+            yard: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="10" height="6" rx="2"/><circle cx="6" cy="18" r="2.5"/><circle cx="15" cy="18" r="2.5"/><path d="M8 12L14 4h4"/><path d="M13 15h6a2 2 0 0 1 2 2v1"/><path d="M2 21h20"/></svg>`,
+            eco: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-7"/><path d="M12 15c-4 0-7-3-7-7 0-4 3.5-6 7-6s7 2 7 6c0 4-3 7-7 7z"/><path d="M12 8a3 3 0 0 1 3 3"/><path d="M5 22h14"/><path d="M7 19c1.5-1 3-1.5 5-1.5s3.5.5 5 1.5"/></svg>`,
+            deck: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="1.5"/><line x1="3" y1="9.5" x2="21" y2="9.5"/><line x1="3" y1="14.5" x2="21" y2="14.5"/><line x1="9" y1="4" x2="9" y2="9.5"/><line x1="15" y1="4" x2="15" y2="9.5"/><line x1="6" y1="9.5" x2="6" y2="14.5"/><line x1="12" y1="9.5" x2="12" y2="14.5"/><line x1="18" y1="9.5" x2="18" y2="14.5"/><line x1="9" y1="14.5" x2="9" y2="20"/><line x1="15" y1="14.5" x2="15" y2="20"/></svg>`,
+            cleaning_services: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="8.5" y1="8.5" x2="20" y2="20"/><line x1="8.5" y1="15.5" x2="20" y2="4"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>`,
+            health_and_safety: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4C5.5 4 4 5.5 4 8c0 4.5 2 8.5 4.5 11.5 1 1.2 2.5 1.5 3.5.5s.5-2.5 0-4c-.5-1.5 0-3 1-3s1.5 1.5 1 3c-.5 1.5-1 3 0 4s2.5.7 3.5-.5C18 16.5 20 12.5 20 8c0-2.5-1.5-4-3-4-2 0-3 1.5-5 1.5S9 4 7 4z"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="12" y1="6" x2="12" y2="12"/></svg>`,
+            auto_fix_high: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 5C5.5 5 4 6.5 4 9c0 4.5 2 8.5 4.5 11.5 1 1.2 2.5 1.5 3.5.5s.5-2.5 0-4c-.5-1.5 0-3 1-3s1.5 1.5 1 3c-.5 1.5-1 3 0 4s2.5.7 3.5-.5C18 17.5 20 13.5 20 9c0-2.5-1.5-4-3-4-2 0-3 1.5-5 1.5S9 5 7 5z"/><path d="M12 2l.8 1.8L14.5 4.5 12.8 5.3 12 7l-.8-1.7L9.5 4.5l1.7-.7z" fill="currentColor"/><path d="M19 3l.5 1.2 1.2.5-1.2.5-.5 1.2-.5-1.2-1.2-.5 1.2-.5z" fill="currentColor"/></svg>`,
+            medical_services: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4c-1.5 0-3 1.5-3 4 0 2.5 1.5 4.5 4 5h8c2.5-.5 4-2.5 4-5 0-2.5-1.5-4-3-4-2 0-3 1-5 1s-3-1-5-1z"/><line x1="8" y1="15" x2="16" y2="15"/><line x1="9" y1="17" x2="15" y2="17"/><line x1="10" y1="19" x2="14" y2="19"/><line x1="11" y1="21" x2="13" y2="21"/></svg>`,
+            emergency: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>`,
+            home: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 9v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9"/><path d="M10 21v-6a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v6"/><line x1="18" y1="5" x2="18" y2="7.5"/></svg>`,
+            real_estate_agent: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="10" rx="1.5"/><path d="M7 6h4"/><path d="M7 8.5h10"/><line x1="8" y1="13" x2="8" y2="21"/><line x1="16" y1="13" x2="16" y2="21"/><line x1="5" y1="21" x2="19" y2="21"/></svg>`,
+            analytics: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><path d="M3 20h18"/><circle cx="12" cy="4" r="1.5" fill="currentColor"/></svg>`,
+            domain: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="10" height="20" rx="1"/><path d="M14 8h6v14h-6"/><line x1="7" y1="6" x2="11" y2="6"/><line x1="7" y1="10" x2="11" y2="10"/><line x1="7" y1="14" x2="11" y2="14"/><line x1="7" y1="18" x2="11" y2="18"/><line x1="16" y1="12" x2="18" y2="12"/><line x1="16" y1="16" x2="18" y2="16"/><line x1="2" y1="22" x2="22" y2="22"/></svg>`,
+            construction: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`,
+            home_repair_service: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4.5l4.5 4.5"/><path d="M18.5 8L9.5 17 6 18l1-3.5 9-9 2.5 2.5z"/><line x1="3" y1="21" x2="6" y2="18"/><path d="M14.5 2.5a3 3 0 0 1 4.2 4.2l-1.2 1.2-4.2-4.2 1.2-1.2z"/></svg>`,
+            support_agent: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="8" cy="10" r="1" fill="currentColor"/><circle cx="12" cy="10" r="1" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/></svg>`,
+            design_services: `<svg class="w-8 h-8 mx-auto mb-2.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`
+        };
+
+        function renderOptions() {
+            const data = formulaData[currentIndustry];
+            if (!data) return;
+
+            if (heading) heading.textContent = data.title;
+            if (subheading) subheading.textContent = data.subtitle;
+            if (step2Heading) step2Heading.textContent = data.step2Title;
+            if (step2Subheading) step2Subheading.textContent = data.step2Subtitle;
+
+            // Render Step 1 Boxes
+            if (optionsGrid) {
+                optionsGrid.innerHTML = data.options.map((opt, idx) => `
+                    <label class="cursor-pointer group block">
+                        <input type="radio" name="formula_service" value="${opt.id}" class="peer sr-only" ${idx === selectedOption ? 'checked' : ''}>
+                        <div onclick="window.selectFormulaBox(${idx})" class="border ${idx === selectedOption ? 'border-primary-container bg-primary-container/10 text-primary-container shadow-[0_0_20px_rgba(255,107,0,0.18)]' : 'border-white/10 bg-[#120905]/70 text-white/70 hover:border-white/30 hover:bg-[#1a0d07] hover:text-white'} rounded p-5 text-center transition-all duration-300 flex flex-col items-center justify-center min-h-[115px]">
+                            <div class="${idx === selectedOption ? 'text-primary-container' : 'text-white/60 group-hover:text-primary-container'} transition-colors duration-200">
+                                ${iconSvgMap[opt.icon] || ''}
+                            </div>
+                            <div class="text-sm font-semibold tracking-wide text-white">${opt.title}</div>
+                        </div>
+                    </label>
+                `).join('');
+            }
+
+            // Render Step 2 Boxes
+            if (step2OptionsGrid) {
+                const step2TimelineIcons = [
+                    `<svg class="w-5 h-5 mx-auto mb-1.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`,
+                    `<svg class="w-5 h-5 mx-auto mb-1.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+                    `<svg class="w-5 h-5 mx-auto mb-1.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`,
+                    `<svg class="w-5 h-5 mx-auto mb-1.5 transition-all duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6"/><path d="M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>`
+                ];
+                step2OptionsGrid.innerHTML = data.step2Options.map((optText, idx) => `
+                    <label class="cursor-pointer group block">
+                        <input type="radio" name="formula_step2" class="peer sr-only" ${idx === selectedStep2Option ? 'checked' : ''}>
+                        <div onclick="window.selectStep2Box(${idx})" class="border ${idx === selectedStep2Option ? 'border-primary-container bg-primary-container/10 text-primary-container shadow-[0_0_15px_rgba(255,107,0,0.15)]' : 'border-white/10 bg-[#120905]/70 text-white/75 hover:border-white/30 hover:bg-[#1a0d07] hover:text-white'} rounded p-4 text-center transition-all duration-300 flex flex-col items-center justify-center">
+                            <div class="${idx === selectedStep2Option ? 'text-primary-container' : 'text-white/60 group-hover:text-primary-container'} transition-colors duration-200">
+                                ${step2TimelineIcons[idx % step2TimelineIcons.length]}
+                            </div>
+                            <div class="text-xs font-semibold tracking-wide text-white">${optText}</div>
+                        </div>
+                    </label>
+                `).join('');
+            }
+        }
+
+        window.selectFormulaBox = function(idx) {
+            selectedOption = idx;
+            renderOptions();
+        };
+
+        window.selectStep2Box = function(idx) {
+            selectedStep2Option = idx;
+            renderOptions();
+        };
+
+        function setDotActive(dotEl, active) {
+            if (!dotEl) return;
+            const circle = dotEl.querySelector('div');
+            const text = dotEl.querySelector('span');
+            if (active) {
+                if (circle) circle.className = 'w-8 h-8 rounded-full bg-primary-container text-[#050505] flex items-center justify-center font-bold text-sm mb-2 shadow-[0_0_15px_rgba(255,107,0,0.4)] transition-all';
+                if (text) text.className = 'text-[10px] font-label-caps uppercase text-primary-container font-semibold';
+            } else {
+                if (circle) circle.className = 'w-8 h-8 rounded-full bg-surface border border-white/20 text-white/70 flex items-center justify-center font-bold text-sm mb-2 transition-all';
+                if (text) text.className = 'text-[10px] font-label-caps uppercase text-white/70';
+            }
+        }
+
+        function updateStep(step) {
+            if (step1View) step1View.classList.add('hidden');
+            if (step2View) step2View.classList.add('hidden');
+            if (step3View) step3View.classList.add('hidden');
+            if (step4View) step4View.classList.add('hidden');
+
+            if (step === 1) {
+                if (step1View) step1View.classList.remove('hidden');
+                if (progressBar) progressBar.style.width = '0%';
+                setDotActive(dot1, true);
+                setDotActive(dot2, false);
+                setDotActive(dot3, false);
+            } else if (step === 2) {
+                if (step2View) step2View.classList.remove('hidden');
+                if (progressBar) progressBar.style.width = '50%';
+                setDotActive(dot1, true);
+                setDotActive(dot2, true);
+                setDotActive(dot3, false);
+            } else if (step === 3) {
+                if (step3View) step3View.classList.remove('hidden');
+                if (progressBar) progressBar.style.width = '100%';
+                setDotActive(dot1, true);
+                setDotActive(dot2, true);
+                setDotActive(dot3, true);
+            } else if (step === 4) {
+                if (step4View) step4View.classList.remove('hidden');
+                if (progressBar) progressBar.style.width = '100%';
+            }
+        }
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => {
+                    t.className = 'industry-tab px-4 py-2 bg-white/5 text-white/50 hover:text-white hover:bg-white/10 font-label-caps text-xs uppercase tracking-wider rounded transition-all whitespace-nowrap';
+                });
+                tab.className = 'industry-tab px-4 py-2 bg-primary-container text-[#050505] font-label-caps text-xs uppercase tracking-wider rounded whitespace-nowrap font-bold shadow-[0_0_12px_rgba(255,107,0,0.35)] transition-all';
+                currentIndustry = tab.dataset.industry;
+                selectedOption = 0;
+                selectedStep2Option = 0;
+                updateStep(1);
+                renderOptions();
+            });
+        });
+
+        dot1?.addEventListener('click', () => updateStep(1));
+        dot2?.addEventListener('click', () => updateStep(2));
+        dot3?.addEventListener('click', () => updateStep(3));
+
+        document.getElementById('step1NextBtn')?.addEventListener('click', () => updateStep(2));
+        document.getElementById('step2BackBtn')?.addEventListener('click', () => updateStep(1));
+        document.getElementById('step2NextBtn')?.addEventListener('click', () => updateStep(3));
+        document.getElementById('step3BackBtn')?.addEventListener('click', () => updateStep(2));
+        document.getElementById('step3SubmitBtn')?.addEventListener('click', () => {
+            const name = document.getElementById('userNameInput')?.value || 'Anonymous Lead';
+            const contact = document.getElementById('userContactInput')?.value || 'Not provided';
+            const selectedIndustryData = formulaData[currentIndustry];
+            const serviceChosen = selectedIndustryData ? selectedIndustryData.options[selectedOption]?.title : 'General';
+            const timelineChosen = selectedIndustryData ? selectedIndustryData.step2Options[selectedStep2Option] : 'Flexible';
+
+            fetch('https://formspree.io/f/xwlkkwaz', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                body: JSON.stringify({
+                    _subject: `New Lead Captured: ${currentIndustry.toUpperCase()} - ${name}`,
+                    name: name,
+                    contact_info: contact,
+                    industry: currentIndustry,
+                    service_requested: serviceChosen,
+                    timeline_budget: timelineChosen
+                })
+            }).catch(e => console.log(e));
+
+            updateStep(4);
+        });
+        document.getElementById('stepResetBtn')?.addEventListener('click', () => {
+            selectedOption = 0;
+            updateStep(1);
+            renderOptions();
+        });
+
+        // Initialize default view
+        renderOptions();
+    })();
+
+    // Project Inquiry Form Submission Handler (Formspree AJAX Integration)
+    async function handleProjectSubmit(e) {
+        e.preventDefault();
+        const form = document.getElementById('projectInquiryForm');
+        const submitBtn = document.getElementById('submitProjectBtn');
+        const successMsg = document.getElementById('projectSuccessMessage');
+
+        if (!form) return;
+
+        const originalBtnHtml = submitBtn ? submitBtn.innerHTML : 'Send Message';
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = `<span>Sending...</span><svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>`;
+        }
+
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch('https://formspree.io/f/xwlkkwaz', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                form.classList.add('hidden');
+                if (successMsg) successMsg.classList.remove('hidden');
+                form.reset();
+            } else {
+                const data = await response.json();
+                if (Object.hasOwn(data, 'errors')) {
+                    alert(data["errors"].map(error => error["message"]).join(", "));
+                } else {
+                    alert("Oops! There was a problem submitting your form. Please try again.");
+                }
+            }
+        } catch (error) {
+            console.error('Formspree error:', error);
+            // Fallback: show success or alert
+            form.classList.add('hidden');
+            if (successMsg) successMsg.classList.remove('hidden');
+        } finally {
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnHtml;
+            }
+        }
+    }
+
+    function resetProjectForm() {
+        const form = document.getElementById('projectInquiryForm');
+        const successMsg = document.getElementById('projectSuccessMessage');
+        if (form && successMsg) {
+            form.reset();
+            form.classList.remove('hidden');
+            successMsg.classList.add('hidden');
+        }
+    }
+
+    // Direct Email Composer Opener (Opens Gmail compose or default mailto client)
+    function openEmailComposer(e) {
+        if (e) e.preventDefault();
+        const gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=justworkwork90@gmail.com';
+        const win = window.open(gmailUrl, '_blank');
+        if (!win || win.closed || typeof win.closed === 'undefined') {
+            window.location.href = 'mailto:justworkwork90@gmail.com';
+        }
+    }
+</script>
+</body></html>
+
+
+
+
+
+
