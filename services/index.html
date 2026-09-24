@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Services | W Agency — Custom Web Design, Redesign, SEO & CRO</title>
+    <meta name="description" content="Explore W Agency's core services: Custom Web Design, Website Redesign, SEO Optimization, and Conversion Rate Optimization engineered for service businesses.">
+    <link rel="canonical" href="https://wagency.xyz/services/">
+    <meta property="og:title" content="Services | W Agency — Custom Web Design, Redesign, SEO & CRO">
+    <meta property="og:description" content="Explore W Agency's core digital solutions: Custom Web Design, Redesign, Technical SEO, and Conversion Rate Optimization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wagency.xyz/services/">
+    <meta property="og:image" content="https://wagency.xyz/logo.png">
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://wagency.xyz/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://wagency.xyz/services/" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "W Agency Digital Solutions",
+      "provider": { "@type": "Organization", "name": "W Agency", "url": "https://wagency.xyz" },
+      "description": "Core digital capabilities including Custom Web Design, Website Redesign, SEO Optimization, and Conversion Rate Optimization."
+    }
+  ]
+}
+</script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-container": "#ff6b00",
+                        "on-surface": "#f8ddd2",
+                        "on-surface-variant": "#e2bfb0",
+                        "surface-container-lowest": "#170b06",
+                        "surface-container": "#2b1c16",
+                        "background": "#050505"
+                    },
+                    fontFamily: {
+                        sora: ["Sora", "sans-serif"],
+                        inter: ["Inter", "sans-serif"],
+                        mono: ["JetBrains Mono", "monospace"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #050505; color: #f8ddd2; font-family: 'Inter', sans-serif; }
+        .glass-panel { background: rgba(15, 15, 15, 0.85); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.1); border-top-color: rgba(255, 255, 255, 0.2); }
+        .btn-primary { background: #ff6b00; color: #050505; font-family: 'JetBrains Mono', monospace; font-weight: 700; transition: all 0.3s ease; }
+        .btn-primary:hover { box-shadow: 0 0 25px rgba(255, 107, 0, 0.45); }
+        .btn-secondary { background: transparent; color: #ffffff; border: 1px solid rgba(255, 255, 255, 0.25); font-family: 'JetBrains Mono', monospace; transition: all 0.3s ease; }
+        .btn-secondary:hover { border-color: #ffffff; background: rgba(255, 255, 255, 0.05); }
+        .ambient-glow { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(255,107,0,0.15) 0%, rgba(5,5,5,0) 70%); pointer-events: none; border-radius: 50%; filter: blur(60px); }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#050505]/85 backdrop-blur-xl border-b border-white/10">
+        <div class="flex justify-between items-center px-6 md:px-16 py-6 max-w-7xl mx-auto">
+            <a class="flex items-center" href="/" aria-label="W Agency Home">
+                <img src="/logo.png" alt="W AGENCY" width="380" height="151" class="h-10 md:h-12 w-auto object-contain" decoding="async">
+            </a>
+            <div class="hidden md:flex items-center space-x-10 text-xs font-mono tracking-widest uppercase text-white/70">
+                <a class="hover:text-primary-container transition-colors text-primary-container font-bold" href="/services/">Services</a>
+                <a class="hover:text-primary-container transition-colors" href="/work/">Work</a>
+                <a class="hover:text-primary-container transition-colors" href="/method/">The Method</a>
+                <a class="hover:text-primary-container transition-colors" href="/blog/">Blog</a>
+                <a class="hover:text-primary-container transition-colors" href="/contact/">Contact</a>
+            </div>
+            <a class="hidden md:inline-flex btn-primary px-7 py-3 text-xs uppercase tracking-wider" href="/contact/">GET A QUOTE</a>
+            <button id="mobileMenuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileDrawer" class="md:hidden text-white"><svg class="w-7 h-7 text-white inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+        </div>
+        <div id="mobileDrawer" class="hidden md:hidden bg-[#0a0503] border-b border-white/10 px-6 py-6 space-y-4 text-xs font-mono uppercase tracking-wider">
+            <a class="block py-2 text-primary-container font-bold" href="/services/">Services</a>
+            <a class="block py-2 text-white/80" href="/work/">Work</a>
+            <a class="block py-2 text-white/80" href="/method/">The Method</a>
+            <a class="block py-2 text-white/80" href="/blog/">Blog</a>
+            <a class="block py-2 text-white/80" href="/contact/">Contact</a>
+            <a class="block btn-primary text-center py-3 mt-4" href="/contact/">GET A QUOTE</a>
+        </div>
+    </nav>
+
+    <main class="pt-36 pb-24">
+        <!-- Hero -->
+        <section class="relative px-6 md:px-16 max-w-7xl mx-auto mb-20">
+            <div class="ambient-glow top-0 right-0 opacity-30"></div>
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 border border-white/20 px-3.5 py-1.5 font-mono text-xs text-primary-container uppercase tracking-widest mb-6">
+                    <span>// CORE CAPABILITIES</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold font-sora text-white leading-tight mb-6">
+                    Digital Solutions Built For <span class="text-primary-container">Client Acquisition.</span>
+                </h1>
+                <p class="text-lg text-on-surface-variant leading-relaxed">
+                    We specialize in high-ticket websites for service businesses and growing companies. Every service is architected around attraction, authority, and conversion.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section class="px-6 md:px-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+            <!-- Service 1: Custom Web Design -->
+            <div class="glass-panel p-8 md:p-10 rounded-xl flex flex-col justify-between group hover:border-primary-container/40 transition-all">
+                <div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="w-12 h-12 rounded bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container">
+                            <svg class="w-6 h-6 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        </span>
+                        <span class="font-mono text-xs text-white/40">01 / CORE</span>
+                    </div>
+                    <h2 class="text-2xl font-bold font-sora text-white mb-4">Custom Website Design</h2>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-6">
+                        Bespoke, high-performance digital platforms tailored to your brand identity. Zero generic templates, zero slow builders. Clean code engineered for speed and authority.
+                    </p>
+                    <ul class="space-y-2.5 text-xs text-white/80 font-mono mb-8">
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Bespoke Visual & UX Architecture</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Mobile-First Responsive Engineering</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Interactive Decision Funnels</span></li>
+                    </ul>
+                </div>
+                <a href="/services/web-design.html" class="inline-flex items-center space-x-2 text-xs font-mono uppercase tracking-wider text-primary-container group-hover:translate-x-1 transition-transform">
+                    <span>Explore Custom Web Design</span>
+                    <svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+
+            <!-- Service 2: Website Redesign -->
+            <div class="glass-panel p-8 md:p-10 rounded-xl flex flex-col justify-between group hover:border-primary-container/40 transition-all">
+                <div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="w-12 h-12 rounded bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container">
+                            <svg class="w-6 h-6 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                        </span>
+                        <span class="font-mono text-xs text-white/40">02 / RE-PLATFORM</span>
+                    </div>
+                    <h2 class="text-2xl font-bold font-sora text-white mb-4">Website Redesign</h2>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-6">
+                        Transform outdated, low-converting platforms into modern revenue engines without losing your existing search rankings or business equity.
+                    </p>
+                    <ul class="space-y-2.5 text-xs text-white/80 font-mono mb-8">
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Conversion & Friction Audit</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Modern Dark / High-End Rebranding</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>SEO URL Mapping & Migration</span></li>
+                    </ul>
+                </div>
+                <a href="/services/website-redesign.html" class="inline-flex items-center space-x-2 text-xs font-mono uppercase tracking-wider text-primary-container group-hover:translate-x-1 transition-transform">
+                    <span>Explore Website Redesign</span>
+                    <svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+
+            <!-- Service 3: SEO Optimization -->
+            <div class="glass-panel p-8 md:p-10 rounded-xl flex flex-col justify-between group hover:border-primary-container/40 transition-all">
+                <div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="w-12 h-12 rounded bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container">
+                            <svg class="w-6 h-6 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/></svg>
+                        </span>
+                        <span class="font-mono text-xs text-white/40">03 / VISIBILITY</span>
+                    </div>
+                    <h2 class="text-2xl font-bold font-sora text-white mb-4">SEO Optimization</h2>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-6">
+                        Built to be discovered. We implement clean on-page SEO, semantic HTML5 structure, schema markup, and speed architecture so search engines understand your value.
+                    </p>
+                    <ul class="space-y-2.5 text-xs text-white/80 font-mono mb-8">
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Technical Crawlability & Schema.org</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Commercial Keyword Structuring</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Core Web Vitals Speed Optimization</span></li>
+                    </ul>
+                </div>
+                <a href="/services/seo.html" class="inline-flex items-center space-x-2 text-xs font-mono uppercase tracking-wider text-primary-container group-hover:translate-x-1 transition-transform">
+                    <span>Explore SEO Optimization</span>
+                    <svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+
+            <!-- Service 4: Conversion Rate Optimization -->
+            <div class="glass-panel p-8 md:p-10 rounded-xl flex flex-col justify-between group hover:border-primary-container/40 transition-all">
+                <div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="w-12 h-12 rounded bg-primary-container/10 border border-primary-container/30 flex items-center justify-center text-primary-container">
+                            <svg class="w-6 h-6 text-primary-container" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/></svg>
+                        </span>
+                        <span class="font-mono text-xs text-white/40">04 / PERFORMANCE</span>
+                    </div>
+                    <h2 class="text-2xl font-bold font-sora text-white mb-4">Conversion Optimization (CRO)</h2>
+                    <p class="text-sm text-on-surface-variant leading-relaxed mb-6">
+                        Digital psychology and strategic conversion mechanisms. We eliminate user hesitation with interactive calculators, authority anchors, and low-friction action paths.
+                    </p>
+                    <ul class="space-y-2.5 text-xs text-white/80 font-mono mb-8">
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Behavioral User Flow Engineering</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Strategic Lead Form Architecture</span></li>
+                        <li class="flex items-center space-x-2"><span class="text-primary-container">✓</span><span>Multi-Channel Contact Routing</span></li>
+                    </ul>
+                </div>
+                <a href="/services/conversion-optimization.html" class="inline-flex items-center space-x-2 text-xs font-mono uppercase tracking-wider text-primary-container group-hover:translate-x-1 transition-transform">
+                    <span>Explore Conversion Optimization</span>
+                    <svg class="w-4 h-4 text-primary-container inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <section class="px-6 md:px-16 max-w-7xl mx-auto">
+            <div class="glass-panel p-10 md:p-14 rounded-2xl border border-primary-container/30 bg-gradient-to-r from-[#170b06] to-[#0a0503] flex flex-col md:flex-row items-center justify-between gap-8">
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-bold font-sora text-white mb-2">Need a tailored solution for your business?</h3>
+                    <p class="text-sm text-on-surface-variant">Tell us about your goals and we'll architect the exact plan for your website.</p>
+                </div>
+                <a href="/contact/" class="btn-primary px-8 py-4 text-xs uppercase tracking-widest shrink-0">Start Your Project</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#090503] w-full py-12 px-6 md:px-16 border-t border-white/10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <a href="/"><img src="/logo.png" alt="W AGENCY" width="380" height="151" class="h-10 w-auto object-contain" decoding="async"></a>
+            <div class="flex items-center space-x-6 text-xs font-mono text-white/60">
+                <a href="/services/" class="hover:text-white">Services</a>
+                <a href="/work/" class="hover:text-white">Work</a>
+                <a href="/method/" class="hover:text-white">The Method</a>
+                <a href="/blog/" class="hover:text-white">Blog</a>
+                <a href="/contact/" class="hover:text-white">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            const btn = document.getElementById('mobileMenuBtn');
+            const drawer = document.getElementById('mobileDrawer');
+            if (btn && drawer) {
+                btn.addEventListener('click', () => {
+                    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+                    btn.setAttribute('aria-expanded', !isExpanded);
+                    btn.setAttribute('aria-label', !isExpanded ? 'Close navigation menu' : 'Open navigation menu');
+                    drawer.classList.toggle('hidden');
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
+
+
+
+
